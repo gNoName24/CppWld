@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CppWld" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CppWld" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CppWld" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-g" />
+			<Add option="-fexceptions" />
+			<Add option="-DSFML_ENABLE_EVENT_VARIANT" />
+			<Add directory="D:/codeblocks/Corconus/tools" />
+			<Add directory="D:/codeblocks/Corconus/libs" />
+			<Add directory="D:/codeblocks/Corconus/libs/ImGui" />
+			<Add directory="D:/codeblocks/Corconus/libs/ImGui/backends" />
+		</Compiler>
+		<Unit filename="CppWld/Chunk.cpp" />
+		<Unit filename="CppWld/Chunk.hpp" />
+		<Unit filename="CppWld/Player.cpp" />
+		<Unit filename="CppWld/Player.hpp" />
+		<Unit filename="CppWld/main.cpp" />
+		<Unit filename="SiSFML/SiSFML.cpp" />
+		<Unit filename="SiSFML/SiSFML.hpp" />
+		<Unit filename="Storage.cpp" />
+		<Unit filename="Storage.hpp" />
+		<Unit filename="Tools/TlConsole.cpp" />
+		<Unit filename="Tools/TlConsole.hpp" />
+		<Unit filename="Tools/TlFile.cpp" />
+		<Unit filename="Tools/TlFile.hpp" />
+		<Unit filename="Tools/TlMain.cpp" />
+		<Unit filename="Tools/TlMain.hpp" />
+		<Unit filename="libs/ImGui/imconfig-SFML.h" />
+		<Unit filename="libs/ImGui/imconfig.h" />
+		<Unit filename="libs/ImGui/imgui-SFML.cpp" />
+		<Unit filename="libs/ImGui/imgui-SFML.h" />
+		<Unit filename="libs/ImGui/imgui-SFML_export.h" />
+		<Unit filename="libs/ImGui/imgui.cpp" />
+		<Unit filename="libs/ImGui/imgui.h" />
+		<Unit filename="libs/ImGui/imgui_demo.cpp" />
+		<Unit filename="libs/ImGui/imgui_draw.cpp" />
+		<Unit filename="libs/ImGui/imgui_internal.h" />
+		<Unit filename="libs/ImGui/imgui_tables.cpp" />
+		<Unit filename="libs/ImGui/imgui_widgets.cpp" />
+		<Unit filename="libs/ImGui/imstb_rectpack.h" />
+		<Unit filename="libs/ImGui/imstb_textedit.h" />
+		<Unit filename="libs/ImGui/imstb_truetype.h" />
+		<Unit filename="libs/noise1234.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/noise1234.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="pch.hpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

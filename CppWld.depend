@@ -1,0 +1,907 @@
+# depslib dependency file v1.0
+1746603846 source:d:\codeblocks\corconus\main.cpp
+	"Storage.hpp"
+	"Corconus/main.cpp"
+
+1744125924 source:d:\codeblocks\corconus\tools\console.cpp
+	<iostream>
+	<string>
+
+1744126270 source:d:\codeblocks\corconus\tools\consoletools.cpp
+	<iostream>
+	<string>
+
+1744661123 source:d:\codeblocks\corconus\tools\tlconsole.cpp
+	"TlMain.hpp"
+	"TlConsole.hpp"
+
+1744126846 d:\codeblocks\corconus\tools\tlconsole.cpp
+	<iostream>
+	<string>
+
+1744661106 d:\codeblocks\corconus\tools\tlconsole.hpp
+	"../pch.hpp"
+
+1745333748 source:d:\codeblocks\corconus\tools\tlmain.cpp
+	"TlMain.hpp"
+
+1745333771 d:\codeblocks\corconus\tools\tlmain.hpp
+	"../Storage.hpp"
+
+1746978979 source:d:\codeblocks\corconus\corconus\main.cpp
+	"../Storage.hpp"
+	"Windows/CorconusSettings.hpp"
+	"Windows/BeginMainMenuBar/Starter.hpp"
+	"Windows/ProjectList.hpp"
+	"Windows/BeginMainMenuBar/ProjectOpened.hpp"
+
+1746988875 d:\codeblocks\corconus\corconus\main.cpp
+	"../Storage.hpp"
+
+1746978922 source:d:\codeblocks\corconus\storage.cpp
+	"storage.hpp"
+
+1746978572 d:\codeblocks\corconus\storage.hpp
+	"pch.hpp"
+
+1744660343 d:\codeblocks\corconus\libs\json.hpp
+	<algorithm>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<string>
+	<utility>
+	<vector>
+	<utility>
+	<algorithm>
+	<array>
+	<forward_list>
+	<iterator>
+	<map>
+	<optional>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<cstddef>
+	<exception>
+	<numeric>
+	<stdexcept>
+	<string>
+	<vector>
+	<array>
+	<cstddef>
+	<cstdint>
+	<string>
+	<utility>
+	<type_traits>
+	<stdint.h>
+	<stdint.h>
+	<version>
+	<cstdlib>
+	<cassert>
+	<compare>
+	<cstddef>
+	<array>
+	<cstddef>
+	<type_traits>
+	<utility>
+	<limits>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<iterator>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<cstring>
+	<string>
+	<utility>
+	<experimental/filesystem>
+	<filesystem>
+	<optional>
+	<algorithm>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<iterator>
+	<tuple>
+	<utility>
+	<ranges>
+	<cstddef>
+	<string>
+	<cstdint>
+	<tuple>
+	<utility>
+	<cstdint>
+	<cstddef>
+	<functional>
+	<algorithm>
+	<array>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<bit>
+	<array>
+	<cstddef>
+	<cstring>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cstdio>
+	<istream>
+	<cstddef>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<cstdint>
+	<utility>
+	<string>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<cstddef>
+	<limits>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<type_traits>
+	<algorithm>
+	<cctype>
+	<cerrno>
+	<cstdlib>
+	<iosfwd>
+	<limits>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<array>
+	<map>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<algorithm>
+	<cstddef>
+	<iterator>
+	<memory>
+	<string>
+	<vector>
+	<ios>
+	<ostream>
+	<algorithm>
+	<array>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<iomanip>
+	<type_traits>
+	<utility>
+	<array>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+	<functional>
+	<initializer_list>
+	<iterator>
+	<memory>
+	<stdexcept>
+	<type_traits>
+	<utility>
+	<vector>
+	<any>
+	<string_view>
+
+1746988897 d:\codeblocks\corconus\pch.hpp
+	<iostream>
+	<string>
+	<vector>
+	<cstdlib>
+	<chrono>
+	<iomanip>
+	<codecvt>
+	<fstream>
+	<filesystem>
+	<windows.h>
+	<psapi.h>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/Shader.hpp>
+	"libs/json.hpp"
+	"imgui.h"
+	"imgui-SFML.h"
+	"SiSFML/SiSFML.hpp"
+	"Tools/TlMain.hpp"
+	"Tools/TlConsole.hpp"
+	"Tools/TlFile.hpp"
+	"Corconus/Project/CorconusProject.hpp"
+	"Corconus/Windows/CorconusSettings.hpp"
+	"Corconus/Windows/BeginMainMenuBar/Starter.hpp"
+	"Corconus/Windows/ProjectList.hpp"
+	"Corconus/Windows/BeginMainMenuBar/ProjectOpened.hpp"
+	"Corconus/Windows/Project/ProjectManager.hpp"
+
+1744897383 d:\codeblocks\corconus\sisfml\sisfm.hpp
+
+1745339857 d:\codeblocks\corconus\sisfml\sisfml.hpp
+	"../Storage.hpp"
+
+1745159374 source:d:\codeblocks\corconus\sisfml\sisfml.cpp
+	"SiSFML.hpp"
+
+1744990416 source:d:\codeblocks\corconus\tools\tlfile.cpp
+	"TlFile.hpp"
+
+1744990534 d:\codeblocks\corconus\tools\tlfile.hpp
+	"../Storage.hpp"
+
+1735930392 source:d:\codeblocks\corconus\libs\imgui\imgui-sfml.cpp
+	"imgui-SFML.h"
+	<imgui.h>
+	<SFML/Config.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/Window.hpp>
+	<cassert>
+	<cmath>
+	<cstring>
+	<algorithm>
+	<memory>
+	<vector>
+	<SFML/System/NativeActivity.hpp>
+	<android/native_activity.h>
+	<jni.h>
+
+1735930392 d:\codeblocks\corconus\libs\imgui\imgui-sfml.h
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/Window/Joystick.hpp>
+	<optional>
+	"imgui-SFML_export.h"
+
+1735930392 d:\codeblocks\corconus\libs\imgui\imgui-sfml_export.h
+
+1742239046 d:\codeblocks\corconus\libs\imgui\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	"imgui_user.h"
+
+1742239046 d:\codeblocks\corconus\libs\imgui\imconfig.h
+
+1742239046 source:d:\codeblocks\corconus\libs\imgui\imgui.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<stdint.h>
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	"stb_sprintf.h"
+	<Carbon/Carbon.h>
+	<shellapi.h>
+	<sys/wait.h>
+	<unistd.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1742239046 d:\codeblocks\corconus\libs\imgui\imgui_internal.h
+	"imgui.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	<immintrin.h>
+	<nmmintrin.h>
+
+1742239046 source:d:\codeblocks\corconus\libs\imgui\imgui_demo.cpp
+	"imgui.h"
+	<ctype.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<inttypes.h>
+	<emscripten/version.h>
+
+1742239046 source:d:\codeblocks\corconus\libs\imgui\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	"misc/freetype/imgui_freetype.h"
+	<stdio.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1742239046 d:\codeblocks\corconus\libs\imgui\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1742239046 d:\codeblocks\corconus\libs\imgui\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1742239046 source:d:\codeblocks\corconus\libs\imgui\imgui_tables.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdint.h>
+
+1742239046 source:d:\codeblocks\corconus\libs\imgui\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdint.h>
+	"imstb_textedit.h"
+	"imstb_textedit.h"
+
+1742239046 d:\codeblocks\corconus\libs\imgui\imstb_textedit.h
+	<string.h>
+
+1745248862 d:\codeblocks\corconus\corconus\project\corconusproject.hpp
+	"../Storage.hpp"
+
+1746978838 source:d:\codeblocks\corconus\corconus\project\corconusproject.cpp
+	"CorconusProject.hpp"
+
+1742239046 source:d:\codeblocks\corconus\libs\imgui\backends\imgui_impl_opengl2.cpp
+	"imgui.h"
+	"imgui_impl_opengl2.h"
+	<stdint.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<stdio.h>
+
+1742239046 d:\codeblocks\corconus\libs\imgui\backends\imgui_impl_opengl2.h
+	"imgui.h"
+
+1745261857 d:\codeblocks\corconus\corconus\windows\beginmainmenubar1.cpp
+	"BeginMainMenuBar1.hpp"
+
+1745261857 source:d:\codeblocks\corconus\corconus\windows\beginmainmenubar1.cpp
+	"BeginMainMenuBar1.hpp"
+
+1746977469 source:d:\codeblocks\corconus\corconus\windows\projectlist.cpp
+	"ProjectList.hpp"
+
+1745261516 d:\codeblocks\corconus\corconus\windows\windows.hpp
+
+1745261875 d:\codeblocks\corconus\corconus\windows\beginmainmenubar1.hpp
+	"../../Storage.hpp"
+
+1746613592 d:\codeblocks\corconus\corconus\windows\beginmainmenubar\starter.hpp
+	"../../../Storage.hpp"
+	"../CorconusSettings.hpp"
+
+1746614009 source:d:\codeblocks\corconus\corconus\windows\beginmainmenubar\starter.cpp
+	"Starter.hpp"
+
+1746610941 d:\codeblocks\corconus\corconus\windows\projectlist.hpp
+	"../../Storage.hpp"
+
+1746614067 d:\codeblocks\corconus\corconus\windows\corconussettings.hpp
+	"../../Storage.hpp"
+
+1746614159 source:d:\codeblocks\corconus\corconus\windows\corconussettings.cpp
+	"CorconusSettings.hpp"
+
+1746979037 source:d:\codeblocks\corconus\corconus\windows\beginmainmenubar\projectopened.cpp
+	"ProjectOpened.hpp"
+
+1746978462 d:\codeblocks\corconus\corconus\windows\beginmainmenubar\projectopened.hpp
+	"../../../Storage.hpp"
+	"../CorconusSettings.hpp"
+
+1746988681 d:\codeblocks\corconus\corconus\windows\project\projectmanager.hpp
+	"../../Storage.hpp"
+
+1746988701 source:d:\codeblocks\corconus\corconus\windows\project\projectmanager.cpp
+	"ProjectManager.hpp"
+
+1735930392 source:d:\codeblocks\cppwld\libs\imgui\imgui-sfml.cpp
+	"imgui-SFML.h"
+	<imgui.h>
+	<SFML/Config.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/Window.hpp>
+	<cassert>
+	<cmath>
+	<cstring>
+	<algorithm>
+	<memory>
+	<vector>
+	<SFML/System/NativeActivity.hpp>
+	<android/native_activity.h>
+	<jni.h>
+
+1735930392 d:\codeblocks\cppwld\libs\imgui\imgui-sfml.h
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/Window/Joystick.hpp>
+	<optional>
+	"imgui-SFML_export.h"
+
+1735930392 d:\codeblocks\cppwld\libs\imgui\imgui-sfml_export.h
+
+1742239046 source:d:\codeblocks\cppwld\libs\imgui\imgui.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<stdint.h>
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	"stb_sprintf.h"
+	<Carbon/Carbon.h>
+	<shellapi.h>
+	<sys/wait.h>
+	<unistd.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1742239046 d:\codeblocks\cppwld\libs\imgui\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	"imgui_user.h"
+
+1742239046 d:\codeblocks\cppwld\libs\imgui\imconfig.h
+
+1742239046 d:\codeblocks\cppwld\libs\imgui\imgui_internal.h
+	"imgui.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	<immintrin.h>
+	<nmmintrin.h>
+
+1742239046 source:d:\codeblocks\cppwld\libs\imgui\imgui_demo.cpp
+	"imgui.h"
+	<ctype.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<inttypes.h>
+	<emscripten/version.h>
+
+1742239046 source:d:\codeblocks\cppwld\libs\imgui\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	"misc/freetype/imgui_freetype.h"
+	<stdio.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1742239046 d:\codeblocks\cppwld\libs\imgui\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1742239046 d:\codeblocks\cppwld\libs\imgui\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1742239046 source:d:\codeblocks\cppwld\libs\imgui\imgui_tables.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdint.h>
+
+1742239046 source:d:\codeblocks\cppwld\libs\imgui\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdint.h>
+	"imstb_textedit.h"
+	"imstb_textedit.h"
+
+1742239046 d:\codeblocks\cppwld\libs\imgui\imstb_textedit.h
+	<string.h>
+
+1748085734 source:d:\codeblocks\cppwld\sisfml\sisfml.cpp
+	"SiSFML.hpp"
+
+1748001625 d:\codeblocks\cppwld\sisfml\sisfml.hpp
+	"../Storage.hpp"
+
+1747768831 d:\codeblocks\cppwld\storage.hpp
+	"pch.hpp"
+
+1748079774 d:\codeblocks\cppwld\pch.hpp
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<cmath>
+	<cstdlib>
+	<chrono>
+	<iomanip>
+	<codecvt>
+	<fstream>
+	<sstream>
+	<filesystem>
+	<random>
+	<type_traits>
+	<unordered_map>
+	<windows.h>
+	<psapi.h>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/Shader.hpp>
+	"libs/json.hpp"
+	"libs/noise1234.h"
+	"imgui.h"
+	"imgui-SFML.h"
+	"SiSFML/SiSFML.hpp"
+	"Tools/TlMain.hpp"
+	"Tools/TlConsole.hpp"
+	"Tools/TlFile.hpp"
+
+1744660343 d:\codeblocks\cppwld\libs\json.hpp
+	<algorithm>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<string>
+	<utility>
+	<vector>
+	<utility>
+	<algorithm>
+	<array>
+	<forward_list>
+	<iterator>
+	<map>
+	<optional>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<cstddef>
+	<exception>
+	<numeric>
+	<stdexcept>
+	<string>
+	<vector>
+	<array>
+	<cstddef>
+	<cstdint>
+	<string>
+	<utility>
+	<type_traits>
+	<stdint.h>
+	<stdint.h>
+	<version>
+	<cstdlib>
+	<cassert>
+	<compare>
+	<cstddef>
+	<array>
+	<cstddef>
+	<type_traits>
+	<utility>
+	<limits>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<iterator>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<cstring>
+	<string>
+	<utility>
+	<experimental/filesystem>
+	<filesystem>
+	<optional>
+	<algorithm>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<iterator>
+	<tuple>
+	<utility>
+	<ranges>
+	<cstddef>
+	<string>
+	<cstdint>
+	<tuple>
+	<utility>
+	<cstdint>
+	<cstddef>
+	<functional>
+	<algorithm>
+	<array>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<bit>
+	<array>
+	<cstddef>
+	<cstring>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cstdio>
+	<istream>
+	<cstddef>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<cstdint>
+	<utility>
+	<string>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<cstddef>
+	<limits>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<type_traits>
+	<algorithm>
+	<cctype>
+	<cerrno>
+	<cstdlib>
+	<iosfwd>
+	<limits>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<array>
+	<map>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<algorithm>
+	<cstddef>
+	<iterator>
+	<memory>
+	<string>
+	<vector>
+	<ios>
+	<ostream>
+	<algorithm>
+	<array>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<iomanip>
+	<type_traits>
+	<utility>
+	<array>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+	<functional>
+	<initializer_list>
+	<iterator>
+	<memory>
+	<stdexcept>
+	<type_traits>
+	<utility>
+	<vector>
+	<any>
+	<string_view>
+
+1748006363 d:\codeblocks\cppwld\tools\tlmain.hpp
+	"../Storage.hpp"
+
+1748089842 d:\codeblocks\cppwld\tools\tlconsole.hpp
+	"../pch.hpp"
+
+1744990534 d:\codeblocks\cppwld\tools\tlfile.hpp
+	"../Storage.hpp"
+
+1747911515 source:d:\codeblocks\cppwld\storage.cpp
+	"storage.hpp"
+
+1748089881 source:d:\codeblocks\cppwld\tools\tlconsole.cpp
+	"TlMain.hpp"
+	"TlConsole.hpp"
+
+1744990416 source:d:\codeblocks\cppwld\tools\tlfile.cpp
+	"TlFile.hpp"
+
+1748006306 source:d:\codeblocks\cppwld\tools\tlmain.cpp
+	"TlMain.hpp"
+
+1748089330 d:\codeblocks\cppwld\cppwld\main.cpp
+	"../Storage.hpp"
+	"Player.hpp"
+	"ChatManager.hpp"
+	"Chunk.hpp"
+
+1747768999 source:d:\codeblocks\cppwld\main.cpp
+	"Storage.hpp"
+	"CppWld/main.cpp"
+
+1747768698 d:\codeblocks\cppwld\cppwld\main.hpp
+	"../Storage.hpp"
+
+1748089330 source:d:\codeblocks\cppwld\cppwld\main.cpp
+	"../Storage.hpp"
+	"Player.hpp"
+	"ChatManager.hpp"
+	"Chunk.hpp"
+
+1676543023 d:\codeblocks\cppwld\libs\noise1234.h
+
+1676543023 source:d:\codeblocks\cppwld\libs\noise1234.c
+	"noise1234.h"
+
+1748089224 d:\codeblocks\cppwld\cppwld\player.hpp
+	"../Storage.hpp"
+
+1748089383 source:d:\codeblocks\cppwld\cppwld\player.cpp
+	"Player.hpp"
+	"ChatManager.hpp"
+
+1747937262 source:d:\codeblocks\cppwld\cppwld\chunk.cpp
+
+1748032768 d:\codeblocks\cppwld\cppwld\chunk.hpp
+	"../Storage.hpp"
+	"Player.hpp"
+
+1748079084 source:d:\codeblocks\cppwld\cppwld\chatcommandmanager.cpp
+
+1748081483 d:\codeblocks\cppwld\cppwld\chatcommandmanager.hpp
+	"../Storage.hpp"
+
+1748092770 d:\codeblocks\cppwld\cppwld\chatmanager.hpp
+	"../Storage.hpp"
+	"Player.hpp"
+
+1748092833 source:d:\codeblocks\cppwld\cppwld\chatmanager.cpp
+	"ChatManager.hpp"
+
