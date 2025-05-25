@@ -27,7 +27,6 @@ public:
         chunkPosition = cP;
         for(int x = 0; x < CHUNK_WIDTH; x++) {
             for(int y = 0; y < CHUNK_HEIGHT; y++) {
-                //data[x][y] = getRandom(0,3);
                 data[x][y]["type"] = "grass";
                 sf::Vector2i currentChunkBlockPosition = {x + (chunkPosition.x * CHUNK_WIDTH), y + (chunkPosition.y * CHUNK_HEIGHT)};
                 /*int noise = (1 + noise2(currentChunkBlockPosition.x * 0.05, currentChunkBlockPosition.y * 0.05)) * 2;

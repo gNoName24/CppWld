@@ -53,7 +53,7 @@ public:
     void debugInfo() {
         ImGui::Begin("Debug Info");
         if(ImGui::TreeNode("Main")) {
-            ImGui::Text("RAM Usage: %i", getMemoryUsage() / 1024);
+            ImGui::Text("RAM Usage: %d", getMemoryUsage() / 1024);
             ImGui::TreePop();
         }
         if(ImGui::TreeNode("Window")) {
@@ -79,10 +79,9 @@ public:
     vector<sf::Vector2i> chunksGetAllKeys(const unordered_map<sf::Vector2i, Chunk, sfVector2iHash>& chunks) {
         vector<sf::Vector2i> keys;
         keys.reserve(chunks.size());
-        for (const auto& pair : chunks) { keys.push_back(pair.first); }
+        for(const auto& pair : chunks) { keys.push_back(pair.first); }
         return keys;
     }
-    int chunkViewRadius = 4;
 protected:
     void render() override {
         mainPlayer.controllerTick();
@@ -102,8 +101,8 @@ protected:
         for(int renderChunkIndex = 0; renderChunkIndex < renderChunk.size(); renderChunkIndex++) {
             chunks[renderChunk[renderChunkIndex]].chunkRender(*this, mainPlayer);
         }*/
-        for(int renderX = mainPlayer.positionChunk.x-(chunkViewRadius/2); renderX <= mainPlayer.positionChunk.x+(chunkViewRadius/2); renderX++) {
-            for(int renderY = mainPlayer.positionChunk.y-(chunkViewRadius/2); renderY <= mainPlayer.positionChunk.y+(chunkViewRadius/2); renderY++) {
+        for(int renderX = mainPlayer.positionChunk.x-(SSG_RenderChunkViewDistance/2); renderX <= mainPlayer.positionChunk.x+(SSG_RenderChunkViewDistance/2); renderX++) {
+            for(int renderY = mainPlayer.positionChunk.y-(SSG_RenderChunkViewDistance/2); renderY <= mainPlayer.positionChunk.y+(SSG_RenderChunkViewDistance/2); renderY++) {
                 if(chunks.find({renderX, renderY}) != chunks.end()) {
                     chunks[{renderX, renderY}].chunkRender(*this, mainPlayer);
                 }
@@ -116,8 +115,8 @@ protected:
         // ќбнаружение пересечени€ нового чанка
         if( static_cast<int>(mainPlayer.position.x/16) != mainPlayer.positionChunk.x || static_cast<int>(mainPlayer.position.y/16) != mainPlayer.positionChunk.y ) {
             mainPlayer.positionChunk = to_Vector2i(mainPlayer.position)/16;
-            for(int cx = -chunkViewRadius/2; cx <= chunkViewRadius/2; cx++) {
-                for(int cy = -chunkViewRadius/2; cy <= chunkViewRadius/2; cy++) {
+            for(int cx = -SSG_RenderChunkViewDistance/2; cx <= SSG_RenderChunkViewDistance/2; cx++) {
+                for(int cy = -SSG_RenderChunkViewDistance/2; cy <= SSG_RenderChunkViewDistance/2; cy++) {
                     sf::Vector2i ca = {cx, cy};
                     if(chunks.find(mainPlayer.positionChunk+ca) == chunks.end()) {
                         println(1, "Ќовый чанк не найден в массиве чанков, создаетс€ новый / x"+to_string(mainPlayer.positionChunk.x+ca.x)+" y"+to_string(mainPlayer.positionChunk.y+ca.y));
@@ -131,8 +130,7 @@ protected:
 
         debugInfo();
     }
-    void mouseTouchEvent(const sf::Mouse::Button& buttonType, const sf::Vector2i& mousePressPosition) override {
-    }
+    void mouseTouchEvent(const sf::Mouse::Button& buttonType, const sf::Vector2i& mousePressPosition) override {}
     void keyboardEvent(sf::Keyboard::Key keyCode, bool pressed) override {
         if(mainPlayer.getChat()->chatFocus) {
             if(!pressed) {

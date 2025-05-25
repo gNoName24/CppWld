@@ -39,6 +39,8 @@
 			<Add directory="D:/codeblocks/Corconus/libs/ImGui" />
 			<Add directory="D:/codeblocks/Corconus/libs/ImGui/backends" />
 		</Compiler>
+		<Unit filename="CppWld/ChatManager.cpp" />
+		<Unit filename="CppWld/ChatManager.hpp" />
 		<Unit filename="CppWld/Chunk.cpp" />
 		<Unit filename="CppWld/Chunk.hpp" />
 		<Unit filename="CppWld/Player.cpp" />

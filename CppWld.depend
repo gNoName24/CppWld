@@ -602,10 +602,10 @@
 1748001625 d:\codeblocks\cppwld\sisfml\sisfml.hpp
 	"../Storage.hpp"
 
-1747768831 d:\codeblocks\cppwld\storage.hpp
+1748177882 d:\codeblocks\cppwld\storage.hpp
 	"pch.hpp"
 
-1748079774 d:\codeblocks\cppwld\pch.hpp
+1748179951 d:\codeblocks\cppwld\pch.hpp
 	<iostream>
 	<string>
 	<vector>
@@ -618,9 +618,13 @@
 	<fstream>
 	<sstream>
 	<filesystem>
+	<variant>
 	<random>
+	<memory>
 	<type_traits>
 	<unordered_map>
+	<stack>
+	<functional>
 	<windows.h>
 	<psapi.h>
 	<SFML/Window.hpp>
@@ -634,6 +638,7 @@
 	"Tools/TlMain.hpp"
 	"Tools/TlConsole.hpp"
 	"Tools/TlFile.hpp"
+	"CppWld/SettingsStorage/SSGlobal.hpp"
 
 1744660343 d:\codeblocks\cppwld\libs\json.hpp
 	<algorithm>
@@ -843,7 +848,7 @@
 1744990534 d:\codeblocks\cppwld\tools\tlfile.hpp
 	"../Storage.hpp"
 
-1747911515 source:d:\codeblocks\cppwld\storage.cpp
+1748174507 source:d:\codeblocks\cppwld\storage.cpp
 	"storage.hpp"
 
 1748089881 source:d:\codeblocks\cppwld\tools\tlconsole.cpp
@@ -856,20 +861,20 @@
 1748006306 source:d:\codeblocks\cppwld\tools\tlmain.cpp
 	"TlMain.hpp"
 
-1748089330 d:\codeblocks\cppwld\cppwld\main.cpp
+1748193044 d:\codeblocks\cppwld\cppwld\main.cpp
 	"../Storage.hpp"
 	"Player.hpp"
 	"ChatManager.hpp"
 	"Chunk.hpp"
 
-1747768999 source:d:\codeblocks\cppwld\main.cpp
+1748177874 source:d:\codeblocks\cppwld\main.cpp
 	"Storage.hpp"
 	"CppWld/main.cpp"
 
 1747768698 d:\codeblocks\cppwld\cppwld\main.hpp
 	"../Storage.hpp"
 
-1748089330 source:d:\codeblocks\cppwld\cppwld\main.cpp
+1748179977 source:d:\codeblocks\cppwld\cppwld\main.cpp
 	"../Storage.hpp"
 	"Player.hpp"
 	"ChatManager.hpp"
@@ -880,7 +885,7 @@
 1676543023 source:d:\codeblocks\cppwld\libs\noise1234.c
 	"noise1234.h"
 
-1748089224 d:\codeblocks\cppwld\cppwld\player.hpp
+1748177856 d:\codeblocks\cppwld\cppwld\player.hpp
 	"../Storage.hpp"
 
 1748089383 source:d:\codeblocks\cppwld\cppwld\player.cpp
@@ -889,7 +894,7 @@
 
 1747937262 source:d:\codeblocks\cppwld\cppwld\chunk.cpp
 
-1748032768 d:\codeblocks\cppwld\cppwld\chunk.hpp
+1748193318 d:\codeblocks\cppwld\cppwld\chunk.hpp
 	"../Storage.hpp"
 	"Player.hpp"
 
@@ -898,10 +903,37 @@
 1748081483 d:\codeblocks\cppwld\cppwld\chatcommandmanager.hpp
 	"../Storage.hpp"
 
-1748092770 d:\codeblocks\cppwld\cppwld\chatmanager.hpp
+1748193626 d:\codeblocks\cppwld\cppwld\chatmanager.hpp
 	"../Storage.hpp"
+	"CommandTypes.hpp"
 	"Player.hpp"
 
-1748092833 source:d:\codeblocks\cppwld\cppwld\chatmanager.cpp
+1748187734 source:d:\codeblocks\cppwld\cppwld\chatmanager.cpp
 	"ChatManager.hpp"
+	"ChatCommands.hpp"
+
+1748185455 d:\codeblocks\cppwld\cppwld\chatcommands.hpp
+	"../Storage.hpp"
+	"CommandTypes.hpp"
+
+1748187592 source:d:\codeblocks\cppwld\cppwld\chatcommands.cpp
+	"ChatCommands.hpp"
+	"Player.hpp"
+
+1748167576 d:\codeblocks\cppwld\cppwld\chatcommandtypes.hpp
+	<vector>
+	<string>
+	<memory>
+	<map>
+	<variant>
+	<nlohmann/json.hpp>
+
+1748170232 d:\codeblocks\cppwld\cppwld\commandtypes.hpp
+	"../Storage.hpp"
+
+1748179869 d:\codeblocks\cppwld\cppwld\settingsstorage\ssglobal.hpp
+	"../../Storage.hpp"
+
+1748179922 source:d:\codeblocks\cppwld\cppwld\settingsstorage\ssglobal.cpp
+	"SSGlobal.hpp"
 

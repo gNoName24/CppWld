@@ -25,6 +25,9 @@ public:
         return nickname;
     }
 
+    void setSpeed(float speed) { movementSpeed = speed; }
+    float getSpeed() { return movementSpeed; }
+
     // CHAT
     std::unique_ptr<ChatManager> chat;
     ChatManager* getChat() const;
@@ -48,7 +51,7 @@ public:
 private:
     string nickname = "Untitled";
 protected:
-    float movementSpeed = 1.4;
+    float movementSpeed = 0.5;
 };
 
 #endif

@@ -1,4 +1,5 @@
 #include "ChatManager.hpp"
+#include "ChatCommands.hpp"
 
 char ChatManager::inputBuffer[256] = "";
 
@@ -7,6 +8,7 @@ void ChatManager::sendMessage(const string& message) {
         string output = message;
         if(message[0] == '/') {
             output = command.processCommand(message, player);
+            chatHistory.push_back("[COMMAND] " + player->getNickname() + ": " + message);
         } else {
             output = player->getNickname() + ": " + output;
         }
@@ -15,29 +17,46 @@ void ChatManager::sendMessage(const string& message) {
 }
 
 // COMMAND
-map<string, ChatManager::Command::CommandHandler> ChatManager::Command::commandMap = {
-    {"/help", ChatManager::Command::HandleHelp},
-    {"/teleport", ChatManager::Command::HandleTeleport},
+ChatManager::Command::CommandTree ChatManager::Command::commandTree = {
+    {"/help", CommandNode::WithHandler(&ChatCommands::Help,
+        "Information of Commands",
+        "/help <command> [subcommand]"
+    )},
+    {"/player",
+        CommandNode::WithChildren(
+            CommandTree{
+                {"teleport", CommandNode::WithHandler(&ChatCommands::PlayerTeleport, "Player teleport", "/player teleport <x> <y>")},
+                {"speed",
+                    CommandNode::WithChildren(
+                        CommandTree{
+                            {"get", CommandNode::WithHandler(&ChatCommands::PlayerSpeedGet, "Player speed get", "/player speed get")},
+                            {"set", CommandNode::WithHandler(&ChatCommands::PlayerSpeedSet, "Player speed set", "/player speed set <float>")}
+                        },
+                        "Player speed get/set",
+                        "/player speed <get/set> *[args]"
+                    )
+                }
+            },
+            "Player commands",
+            "/player <type> [args]"
+        )
+    },
+    {"/global",
+        CommandNode::WithChildren(
+            CommandTree{
+                {"set",
+                    CommandNode::WithChildren(
+                        CommandTree{
+                            {"SSG_RenderChunkViewDistance",
+                                CommandNode::WithHandler(&ChatCommands::GlobalSet_SSG_RenderChunkViewDistance, "Render view distance", "/global set SSG_RenderChunkViewDistance <int>")}
+                        },
+                        "Global value set",
+                        "/global set <value> [args]"
+                    )
+                }
+            },
+            "Global (Settings Storage) commands",
+            "/global <type> [args]"
+        )
+    }
 };
-
-string ChatManager::Command::HandleHelp(const vector<string>&, const json&, Player* player) {
-    ostringstream oss;
-    oss << "Available commands:\n";
-    for (const auto& pair : commandMap) {
-        oss << "  " << pair.first << "\n";
-    }
-    return oss.str();
-}
-
-string ChatManager::Command::HandleTeleport(const vector<string>& args, const json&, Player* player) {
-    if (args.size() < 2) return "Usage: /teleport <x> <y>";
-    try {
-        float x = std::stof(args[0]);
-        float y = std::stof(args[1]);
-        player->position = {x, y};
-
-        return "Player " + player->getNickname() + " teleported to {" + to_string(x) + ", " + to_string(y) + "}";
-    } catch (const exception& e) {
-        return string("Invalid coordinates: ") + e.what();
-    }
-}

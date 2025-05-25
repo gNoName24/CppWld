@@ -13,9 +13,13 @@
 #include <fstream>
 #include <sstream>
 #include <filesystem>
+#include <variant>
 #include <random>
+#include <memory>
 #include <type_traits>
 #include <unordered_map>
+#include <stack>
+#include <functional> // для std::hash
 #include <windows.h>
 #include <psapi.h>
 #include <SFML/Window.hpp>
@@ -36,5 +40,7 @@ extern "C" {
 #include "Tools/TlMain.hpp"
 #include "Tools/TlConsole.hpp"
 #include "Tools/TlFile.hpp"
+
+#include "CppWld/SettingsStorage/SSGlobal.hpp"
 
 #endif
